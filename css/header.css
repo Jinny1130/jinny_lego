@@ -1,0 +1,81 @@
+#header{width:100%; background-color: rgba(0,0,0,.3); position:absolute; top:0; left:0; z-index:10;}
+
+.headerWrap{width:1200px; margin:0 auto;}
+.headerWrap::after{content:''; display:block; clear:both;}
+
+/* 로고 */
+#logo{float: left; width:10%; height: 80px;}
+#logo h1 a{
+    display:block;
+    width:115px; height: 80px;
+}
+#logo h1 a img{padding:10px 0;}
+
+/* 지앤비 */
+.gnbWrap{width:60%; float: left; padding-left:15px; box-sizing: border-box;}
+
+/* 지앤비 왼쪽 */
+.gnbL>li::after{content:''; display:block; clear: both;}
+.gnbL>li{float:left; width:100px; height: 80px; position:relative;}
+.gnbL>li>a{display:block; color:#fff; font:bold 16px/80px 'NotoSansB'; text-align: center; }
+
+/* 지앤비 오른쪽 */
+.gnbR{width:30%; float: left;}
+.gnbR::after{content:''; display: block; clear:both;}
+
+/* 아이콘 */
+ul.icon{float: right; height: 80px;}
+.icon::after{content:''; display:block; clear:both;}
+.icon li{float: left; height: 80px; padding:0 5px; box-sizing: border-box;}
+.icon li a{display: block; width:40px; height: 40px; line-height: 80px; padding:20px 0;}
+.icon li:nth-child(1) a{background:url(../img/main/header/Icon_search.png) no-repeat center; background-size:contain;}
+.icon li:nth-child(2) a{display:block; background:url(../img/main/header/Icon_cart.png) no-repeat center; background-size:contain;}
+.icon li:nth-child(3) a{display:block; background:url(../img/main/header/Icon_person.png) no-repeat center; background-size:contain;}
+
+
+
+/* 로그인/회원가입 */
+ul.login{float: right; height: 80px; margin-left:5px;}
+.login::after{content:''; display: block; clear: both;}
+.login li{float: left; height: 80px; padding:0 5px; box-sizing: border-box;}
+.login li a{display:block; color:#fff; font:bold 13px/80px 'NotoSansR'; text-align: center;}
+
+
+
+/* 호버 */
+#header:hover{background-color:#fff;}
+#header:hover .gnbL>li>a{color:#222;}
+#header:hover .login>li>a{color:#222;}
+#header:hover .icon li:nth-child(1) a{display:block; background:url(../img/main/header/Icon_sch_hover.png) no-repeat center;}
+#header:hover .icon li:nth-child(2) a{display:block; background:url(../img/main/header/Icon_cart_hover.png) no-repeat center;}
+#header:hover .icon li:nth-child(3) a{display:block; background:url(../img/main/header/Icon_pers_hover.png) no-repeat center;}
+
+
+#header:hover .gnbL>li:hover>a{color:#ff6201;}
+#header:hover .login>li:hover>a{color:#ff6201}
+
+#header:hover .gnbL>li:hover::after{width:90px; height: 3px;background-color:#ff6201; margin:0 5px; position:absolute; bottom:0;}
+
+
+/* 하위메뉴 만들기 */
+
+div.depth2{
+    position:fixed; top:80px; left:0px;
+    width: 100%; height: 65px;
+    background-color:#fff; border-top:1px solid #dcdcdc; 
+    transition:all 0.3s; opacity:0s; visibility: hidden; opacity: 0;
+}
+
+.lnbWrap{width:1200px; margin:0 auto; position:relative;}
+.lnb{width:350px; position:absolute;}
+.lnb.commu_menu{left:435px;}
+.lnb.custom_menu{left:530px;}
+
+.lnb::after{content:''; display:block; clear:both;}
+.lnb>li{float: left;}
+.lnb>li>a{display:block; font:bold 15px/30px 'NotoSansM'; text-align: center; padding:15px 30px; color:#222;}
+
+.depth1.community:hover div.commu{visibility: visible; opacity: 1;}
+.depth1.customer:hover div.custom{visibility:visible; opacity: 1;}
+
+.lnb>li:hover>a{color:#ff6201;}

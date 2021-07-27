@@ -1,0 +1,19 @@
+#header{width:100%; background-color:#fff; z-index:10; position:none; border-bottom:1px solid #dcdcdc;}
+
+
+/* 지앤비 왼쪽 */
+.gnbL>li>a{display:block; color:#222;}
+
+/* 아이콘 */
+.icon li:nth-child(1) a{background:url(../img/main/header/Icon_sch_hover.png) no-repeat center; background-size:contain;}
+.icon li:nth-child(2) a{display:block; background:url(../img/main/header/Icon_cart_hover.png) no-repeat center; background-size:contain;}
+.icon li:nth-child(3) a{display:block; background:url(../img/main/header/Icon_pers_hover.png) no-repeat center; background-size:contain;}
+
+
+
+/* 로그인/회원가입 */
+.login li a{display:block; color:#222;}
+
+
+
+/* 하위메뉴 만들기 */

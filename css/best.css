@@ -1,0 +1,82 @@
+#sectionWrap{margin:100px 0;}
+
+/* 경로 */
+.announce{width:1200px; margin:0 auto; margin-top:43px;}
+.announce span{font: 16px/1.6 'NotoSansM'; color:#8b8b8b;}
+.announce i{font-size: 16px; color:#8b8b8b;}
+
+
+
+/* 탑배너 */
+.title{width:1200px; margin:0 auto;}
+.title h1{font:700 40px/2 'NotoSansB'; color:#333; text-align: center;}
+
+.topBanner{width:1200px; height:370px; margin:0 auto;}
+.topBanner .bestBanner{position:relative; top:-65px;}
+.topBanner .newBanner{position:relative; top:-35px;}
+
+
+
+/* 아이템 총갯수 */
+.total{width:1200px; margin:20px auto;}
+.total p{font: 16px/1.6 'NotoSansR'; color:#444; border-bottom:1px solid #333; padding-bottom:10px;}
+.total span{color:rgb(237, 67, 67);}
+
+
+
+/* 탭 */
+.tabWrap{width:100%;}
+.itemTab{
+    width:1200px;
+    margin:0 auto;
+}
+
+.panel_page::after{content:''; display:block; clear:both;}
+.page{float: left; margin-right:20px; margin-bottom:35px;}
+.page:nth-child(4n){margin-right:0;}
+
+.page>a>img:first-child{height:315px; margin-bottom:10px;}
+
+.page{position: relative;}
+.page .plus_button{width:38px; height: 38px; position:absolute; left:50%; bottom:110px; transform: translate(-19px, 0); cursor: pointer;}
+
+.page>h3,p{margin-left:5px;}
+.page>h3{font: 18px/1.6 'AppleSDGthL'; color:#000;}
+.page>p{font:bold 20px/1.6 'MalgunGthB'; color:#000;}
+
+
+
+
+/* 호버했을때 */
+
+
+.hover_narrow{
+    position:absolute; top:0; left:0;
+    background-color:rgba(255,255,255,.7);
+    width:285px; height:315px;
+    border:1px solid #d2d2d2;
+    box-sizing: border-box;
+    border-radius:20px;
+    transition:all 0.3s; opacity:0;
+}
+.hover_narrow img{
+    width: 60px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-30px, 0);
+    transition:all 0.3s; height:0;
+}
+.page>a:hover .hover_narrow{opacity:1;}
+.page>a:hover .hover_narrow img{height: 220px;}
+
+
+
+
+/* 페이지 버튼 */
+.numberBtn{width:240px; margin:120px auto;}
+
+.numberBtn::after{content:''; display:block; clear:both;}
+.numberBtn li{float:left; cursor: pointer; color:#777; font:700 18px/1.6 'NotoSansB'; margin:30px 15px; width:30px;}
+
+.numberBtn li.on{color:#ff6201;}

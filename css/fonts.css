@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'NotoSansL';
+    font-weight:300;
+    src: url('//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2') format('woff2'),
+    url('//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff') format('woff'),
+    url('//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf') format('opentype');
+}
+@font-face {
+    font-family: 'NotoSansR';
+    font-weight:400;
+    src: url('//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2') format('woff2'),
+    url('//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff') format('woff'),
+    url('//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf') format('opentype');
+}
+@font-face {font-family: 'NotoSansM';
+    font-weight:500;
+    src: url('//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2') format('woff2'),
+    url('//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff') format('woff'),
+    url('//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'NotoSansB';
+    font-weight:700;
+    src: url('//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2') format('woff2'),
+    url('//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff') format('woff'),
+    url('//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf') format('opentype');
+}
+/* @font-face{
+    font-family:'NanumSqR' sans-serif;
+    src: url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+    font-weight:400;
+}
+@font-face{
+    font-family:'NanumSqEB' sans-serif;
+    src: url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+    font-weight:800;
+} */
+@font-face{
+    font-family:'MalgunGthR' sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+    font-weight:400;
+}
+@font-face{
+    font-family:'MalgunGthB' sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+    font-weight:700;
+}
+
+/* @font-face{
+    src: url(../font/NotoSansKR/NotoSansKR-Bold.otf);
+    font-family:"NotoSansB";
+}
+@font-face{
+    src: url(../font/NotoSansKR/NotoSansKR-Light.otf);
+    font-family:"NotoSansL";
+}
+@font-face{
+    src: url(../font/NotoSansKR/NotoSansKR-Medium.otf);
+    font-family:"NotoSansM";
+}
+@font-face{
+    src: url(../font/NotoSansKR/NotoSansKR-Regular.otf);
+    font-family:"NotoSansR";
+} 
+@font-face{
+    src: url(../font/Nanum_Square/NanumSquareR.otf);
+    font-family:"NanumSqR";
+}
+@font-face{
+    src: url(../font/Nanum_Square/NanumSquareEB.otf);
+    font-family:"NanumSqEB";
+}
+@font-face{
+    src: url(../font/MalgunGothic/MalgunGothicR.ttf);
+    font-family:"MalgunGthR";
+}
+@font-face{
+    src: url(../font/MalgunGothic/MalgunGothicB.ttf);
+    font-family:"MalgunGthB";
+}
+@font-face{
+    src: url(../font/AppleSDGothicNeo/AppleSDGothicNeoL.ttf);
+    font-family:"AppleSDGthL";
+}
+@font-face{
+    src: url(../font/AppleSDGothicNeo/AppleSDGothicNeoM.ttf);
+    font-family:"AppleSDGthM";
+}*/

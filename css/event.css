@@ -1,0 +1,27 @@
+#eventWrap{margin:100px 0;}
+
+/* 경로 */
+.announce{width:1200px; margin:0 auto; margin-top:43px;}
+
+.announce span{font: 16px/1.6 'NotoSansM'; color:#8b8b8b;}
+.announce i{font-size:16px; color:#8b8b8b;}
+
+
+/* 타이틀 */
+.title{width:1200px; margin:0 auto;}
+.title h1{font:700 40px/2 'NotoSansB'; color:#333; text-align: center;}
+.title h4{font:500 16px/2 'NotoSansM'; color:#7c7c7c; text-align: center;}
+
+.event{width:1200px; margin:70px auto; margin-bottom:100px;}
+
+
+.event ul::after{content:''; display:block; clear:both;}
+.event ul li{float: left; width:285px; margin-right:20px; margin-bottom:35px;}
+.event ul li img{width:285px; height:auto;}
+
+.event ul li h3{margin-top:12px; font:700 14px/1.6 'NotoSansB'; color:#bebebe;}
+.event ul li p{font:400 16px/1.5 'NotoSansR'; color:#222; margin-top:7px;}
+.event ul li p:last-child{font-size: 14px; color:#555;}
+.letterspace{letter-spacing: -0.1px;}
+
+.event ul li:nth-child(4n){margin-right:0;}
